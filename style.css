@@ -1,0 +1,61 @@
+body{
+    background-image: url(./images/bg-body.png);
+ 
+    
+    background-size:100%;
+}
+
+
+.logo{
+    display:block;
+    margin:auto;
+  
+}
+
+.barrasuperior{
+    display : flex;
+    list-style: none;
+
+
+}
+
+.main-header{
+    width: 100%;
+}
+
+
+.barrainferior{
+    display : flex;
+  list-style: none;
+  text-align: center;
+  background-color: #BC504F;
+  width: 100%;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  background-size: 50px 100px;
+   
+
+}
+
+
+
+
+
+.photo-container{
+  
+margin: 10px;
+
+
+
+}
+
+.btn{
+    margin: 10px;
+}
+
+.btn-lg{
+    width: 120%;
+}
+
+
+
