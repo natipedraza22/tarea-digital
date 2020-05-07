@@ -24,8 +24,19 @@ body{
 .barrasuperior{
  
     list-style: none;
-    text-align: center;
+
     display : flex;
+ 
+   padding: 0%;
+  
+   
+width: 100%;
+
+  
+
+   
+    justify-content: center;
+    align-items: center;
 
 
 }
@@ -33,6 +44,9 @@ body{
 .main-header{
     width: 100%;
     padding: 0%;
+    position: relative;
+
+   
 }
 
 
