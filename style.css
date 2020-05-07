@@ -24,12 +24,14 @@ body{
 .barrasuperior{
  
     list-style: none;
+    text-align: center;
 
 
 }
 
 .main-header{
     width: 100%;
+    padding: 0%;
 }
 
 
@@ -52,12 +54,15 @@ body{
 .barrainferior a{
     color: white;
     background-size: 50px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .zoom:hover{
     color: white;
     font-weight: black;
     text-decoration: none;
+    transform: scale(0.1);
 
 }
 
@@ -105,6 +110,7 @@ margin: 10px;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
+  
 }
 .photo{
     width: 100%;
@@ -118,4 +124,8 @@ margin: 10px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
+}
+
+.main-footer{
+    padding: 0%;
 }
