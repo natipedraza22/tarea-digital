@@ -1,19 +1,28 @@
+.container{
+    display:block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body{
     background-image: url(./images/bg-body.png);
+    background-color: transparent;
  
     
-    background-size:100%;
+  
 }
 
 
 .logo{
     display:block;
     margin:auto;
+    
   
 }
 
 .barrasuperior{
-    display : flex;
+ 
     list-style: none;
 
 
@@ -29,14 +38,28 @@ body{
   list-style: none;
   text-align: center;
   background-color: #BC504F;
-  width: 100%;
+  width: 103%;
+  height: 67%;
   color: white;
   border-radius: 10px 10px 10px 10px;
   background-size: 50px 100px;
+  justify-content: center;
+  align-items: center;
    
 
 }
 
+.barrainferior a{
+    color: white;
+    background-size: 50px;
+}
+
+.zoom:hover{
+    color: white;
+    font-weight: black;
+    text-decoration: none;
+
+}
 
 
 
@@ -54,8 +77,45 @@ margin: 10px;
 }
 
 .btn-lg{
-    width: 120%;
+    width: 100%;
 }
 
 
+.photo-container
+{
+    position: relative;
+    width: 100%;
+    margin:10px;
+}
 
+.special{
+    position: absolute;
+    right: 50px;
+    top:0px;
+}
+
+.zoom{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 45%;
+    background-color: rgba(0,0,0,0.4);
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.photo{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
